@@ -1,0 +1,20 @@
+﻿<vm:CounterModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:DayCounter.ViewModel">
+
+    <vm:CounterModel.MyCounter>
+        <vm:CounterGroup Title="Your Counter Sample">
+            <vm:CounterGroup.Items>
+                <vm:CounterData Title="Birthday" Date="5/2/14" Days="5"/>
+                <vm:CounterData Title="Aniversary" Date="5/2/14" Days="10" />
+                <vm:CounterData Title="Aniversary" Date="5/2/14" Days="10" />
+                <vm:CounterData Title="Aniversary" Date="5/2/14" Days="10" />
+                <vm:CounterData Title="Aniversary" Date="5/2/14" Days="10" />
+                <vm:CounterData Title="Aniversary" Date="5/2/14" Days="10" />
+                <vm:CounterData Title="Aniversary" Date="5/2/14" Days="10" />
+            </vm:CounterGroup.Items>
+        </vm:CounterGroup>
+    </vm:CounterModel.MyCounter>
+
+</vm:CounterModel>
